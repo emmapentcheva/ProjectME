@@ -1,0 +1,55 @@
+﻿<Window x:Class="ProjectME.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectME"
+        mc:Ignorable="d"
+        Title="SignUp" Height="932" Width="450" Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#D00000" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="443"/>
+        <Image Height="70px" Source="https://www.racecar-engineering.com/wp-content/uploads/2018/03/F1-LOGO.png"/>
+        <Button Content="" x:Name="Home" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="156,10,0,0" Height="49" Click="Home_Click"/>
+
+        <Label Content="Sign Up" x:Name="Singuppage" Margin="112,69,97.333,0.667" Style="{StaticResource Formula1 Display Bold}" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Grid.RowSpan="2" Width="234"/>
+
+        <Label Content="Username" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="79,21,232.333,10.333" Grid.Row="3" Style="{StaticResource Formula1 Display Regular}"/>
+        <Label Content="First Name" x:Name="firstname" Background="Transparent" Foreground="White" FontSize="20" Margin="71,21.667,232.333,10.333" Grid.Row="4" Style="{StaticResource Formula1 Display Regular}"/>
+        <Label Content="Last Name" x:Name="lastname" Background="Transparent" Foreground="White" FontSize="20" Margin="71,21.667,232.333,9.667" Grid.Row="5" Style="{StaticResource Formula1 Display Regular}"/>
+        <Label Content="Email" x:Name="email" Background="Transparent" Foreground="White" FontSize="20" Margin="129,21.333,232.333,10" Grid.Row="6" Style="{StaticResource Formula1 Display Regular}"/>
+        <Label Content="Password" x:Name="password" Background="Transparent" Foreground="White" FontSize="20" Margin="79,21,232.333,10.333" Grid.Row="7" Style="{StaticResource Formula1 Display Regular}"/>
+        <Label Content="Repeat Password" x:Name="repeatpassword" Background="Transparent" Foreground="White" FontSize="18" Margin="15,21.667,232.333,9.667" Grid.Row="8" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130" Margin="216,27,0,0" Grid.Row="3" Background="White" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtfirstname" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130" Margin="216,27.667,0,0" Grid.Row="4" Background="White" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtlastname" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130" Margin="216,28.667,0,0" Grid.Row="5" Background="White" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtemail" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130" Margin="216,26.333,0,0" Grid.Row="6" Background="White" TextChanged="TextBox_TextChanged"/>
+        <PasswordBox x:Name="psspassword" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="130" Margin="216,26,0,0" Grid.Row="7"/>
+        <PasswordBox x:Name="pssreppassword" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="130" Margin="216,25.667,0,0" Grid.Row="8"/>
+
+        <Button Content="" x:Name ="SignUpGo" Margin="184,14.333,191.333,16" Grid.Row="10" Background="#D00000" Click="SignUpB_Click" Foreground="White">
+            <Button.Resources >
+                <Style TargetType="Border" >
+                    <Setter Property="CornerRadius" Value="20"  ></Setter>
+                    
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Application x:Class="ProjectME.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ProjectME"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="Formula1 Display Bold" TargetType="Label">
+            <Setter Property="FontFamily" Value="H:\Formula1-Bold_web_0.ttf #Formula1 Display Bold"/>
+        </Style>
+        <Style x:Key="Formula1 Display Regular" TargetType="Label">
+            <Setter Property="FontFamily" Value="H:\Formula1-Regular_web_0.ttf #Formula1 Display Regular"/>
+        </Style>
+        <Style x:Key="Formula1 Display Wide" TargetType="Label">
+            <Setter Property="FontFamily" Value="H:\Formula1-Wide_web_0.ttf #Formula1 Display Wide"/>
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="35"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="DarkGray"/>
+            <Setter Property="FontFamily" Value="H:\Formula1-Bold_web_0.ttf #Formula1 Display Bold"/>
+            <Setter Property="FontFamily" Value="H:\Formula1-Regular_web_0.ttf #Formula1 Display Regular"/>
+            <Setter Property="FontFamily" Value="H:\Formula1-Wide_web_0.ttf #Formula1 Display Wide"/>
+        </Style>
+    </Application.Resources>
+</Application>
