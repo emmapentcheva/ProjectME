@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ProjectME
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for Driver_of_the_Day.xaml
     /// </summary>
-    public partial class LogIn : Window
+    public partial class Driver_of_the_Day : Window
     {
-        public LogIn()
+        public Driver_of_the_Day()
         {
             InitializeComponent();
         }
@@ -31,10 +31,15 @@ namespace ProjectME
             this.Close();
         }
 
-        private void SignUpB_Click(object sender, RoutedEventArgs e)
+        private void Combo_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Driver_of_the_Day driveroftheday = new Driver_of_the_Day();
-            driveroftheday.Show();
+
+        }
+
+        private void dotd_Click(object sender, RoutedEventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
             this.Close();
         }
     }

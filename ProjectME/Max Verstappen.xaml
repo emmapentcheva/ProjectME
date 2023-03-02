@@ -1,11 +1,11 @@
-﻿<Window x:Class="ProjectME.LogIn"
+﻿<Window x:Class="ProjectME.Max_Verstappen"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectME"
         mc:Ignorable="d"
-        Title="LogIn" Height="932" Width="450" Background="Black">
+        Title="Max_Verstappen" Height="932" Width="450" Background="black">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
@@ -26,20 +26,6 @@
         <Image Height="70px" Source="https://www.racecar-engineering.com/wp-content/uploads/2018/03/F1-LOGO.png"/>
         <Button Content="" x:Name="Home" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="156,10,0,0" Height="49" Click="Home_Click"/>
 
-        <Label Content="Log In" x:Name="Loginpage" Margin="134,69,110.333,0.667" Style="{StaticResource Formula1 Display Bold}" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Grid.RowSpan="2" Width="199"/>
-
-        <Label Content="Username" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="72,16.667,239.333,15.333" Grid.Row="4" Style="{StaticResource Formula1 Display Regular}"/>
-        <TextBox x:Name="txtusername2" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130" Margin="217,22.667,0,0" Grid.Row="4" Background="White"/>
-
-        <Label Content="Password" x:Name="password" Background="Transparent" Foreground="White" FontSize="20" Margin="78,15.667,233.333,15.667" Grid.Row="5" Style="{StaticResource Formula1 Display Regular}"/>
-        <PasswordBox x:Name="psspassword2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="130" Margin="217,21.667,0,0" Grid.Row="5"/>
-
-        <Button Content="" x:Name ="LogInGo" Margin="186,14,189.333,16.333" Grid.Row="7" Background="#D00000" Click="SignUpB_Click" Foreground="White">
-            <Button.Resources >
-                <Style TargetType="Border" >
-                    <Setter Property="CornerRadius" Value="20"  ></Setter>
-                </Style>
-            </Button.Resources>
-        </Button>
+        <Label Content="Max Verstappen" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="114,15.667,119.333,15.667" Grid.Row="1" Style="{StaticResource Formula1 Display Bold}"/>
     </Grid>
 </Window>

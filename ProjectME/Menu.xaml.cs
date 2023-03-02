@@ -15,26 +15,26 @@ using System.Windows.Shapes;
 namespace ProjectME
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for Menu.xaml
     /// </summary>
-    public partial class LogIn : Window
+    public partial class Menu : Window
     {
-        public LogIn()
+        public Menu()
         {
             InitializeComponent();
+        }
+
+        private void Driveroftheday_Click(object sender, RoutedEventArgs e)
+        {
+            Driver_of_the_Day driveroftheday = new Driver_of_the_Day();
+            driveroftheday.Show();
+            this.Close();
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainwindow = new MainWindow();
             mainwindow.Show();
-            this.Close();
-        }
-
-        private void SignUpB_Click(object sender, RoutedEventArgs e)
-        {
-            Driver_of_the_Day driveroftheday = new Driver_of_the_Day();
-            driveroftheday.Show();
             this.Close();
         }
     }

@@ -55,12 +55,63 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Carlos Sainz.xaml.cs">
+      <DependentUpon>Carlos Sainz.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Charles Leclerc.xaml.cs">
+      <DependentUpon>Charles Leclerc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Daniel Ricciardo.xaml.cs">
+      <DependentUpon>Daniel Ricciardo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Driver Info.xaml.cs">
+      <DependentUpon>Driver Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Driver of the Day.xaml.cs">
+      <DependentUpon>Driver of the Day.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lewis Hamilton.xaml.cs">
+      <DependentUpon>Lewis Hamilton.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LogIn.xaml.cs">
       <DependentUpon>LogIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Max Verstappen.xaml.cs">
+      <DependentUpon>Max Verstappen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pierre Gasly.xaml.cs">
+      <DependentUpon>Pierre Gasly.xaml</DependentUpon>
     </Compile>
     <Compile Include="SignUp.xaml.cs">
       <DependentUpon>SignUp.xaml</DependentUpon>
     </Compile>
+    <Page Include="Carlos Sainz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Charles Leclerc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Daniel Ricciardo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Driver Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Driver of the Day.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Lewis Hamilton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LogIn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -77,6 +128,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Max Verstappen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pierre Gasly.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SignUp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ProjectME
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for Max_Verstappen.xaml
     /// </summary>
-    public partial class LogIn : Window
+    public partial class Max_Verstappen : Window
     {
-        public LogIn()
+        public Max_Verstappen()
         {
             InitializeComponent();
         }
@@ -28,13 +28,6 @@ namespace ProjectME
         {
             MainWindow mainwindow = new MainWindow();
             mainwindow.Show();
-            this.Close();
-        }
-
-        private void SignUpB_Click(object sender, RoutedEventArgs e)
-        {
-            Driver_of_the_Day driveroftheday = new Driver_of_the_Day();
-            driveroftheday.Show();
             this.Close();
         }
     }
