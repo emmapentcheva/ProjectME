@@ -28,25 +28,27 @@
 
 
         <Label Content="Driver Info" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="149,17,161.333,14.333" Grid.Row="3" Style="{StaticResource Formula1 Display Regular}"/>
-        <Button Content="" x:Name="Driveroftheday" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133" Margin="156,17,0,0" Grid.Row="3" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" ></Button>
+        <Button Content="" x:Name="driverinfo" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133" Margin="156,17,0,0" Grid.Row="3" FontSize="20" Foreground="white" Height="38" Click="driverinfo_Click" ></Button>
+        <Button x:Name="teamsinfo" Content="Teams Info" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Center" Width="98" Height="35" Background="Transparent" Foreground="White" FontSize="20" />
 
-        <!--<Label Content="Max Verstappen" x:Name="maxv" Background="Transparent" Foreground="White" FontSize="20" Margin="120,15.667,125.333,15.667" Grid.Row="5" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
-        <Button Content="" x:Name="MaxV" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="198" Grid.Row="5" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" />
+        <!--<Label Content="Max Verstappen" x:Name="maxv" Background="Transparent" Foreground="White" FontSize="20" Margin="120,15.667,125.333,15.667" Grid.Row="5" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5">
+            </Label>
+            <Button Content="" x:Name="MaxV" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="198" Grid.Row="5" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" />
 
-        <Label Content="Charles Leclerc" x:Name="charlesl" Background="Transparent" Foreground="White" FontSize="20" Margin="126,16.333,121.333,15" Grid.Row="6" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
-        <Button Content="" x:Name="CharlesL" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="198"  Grid.Row="6" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" />
+            <Label Content="Charles Leclerc" x:Name="charlesl" Background="Transparent" Foreground="White" FontSize="20" Margin="126,16.333,121.333,15" Grid.Row="6" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
+            <Button Content="" x:Name="CharlesL" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="198"  Grid.Row="6" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" />
 
-        <Label Content="Carlos Sainz" x:Name="carloss" Background="Transparent" Foreground="White" FontSize="20" Margin="143,17,144.333,14.333" Grid.Row="7" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
-        <Button Content="" x:Name="CarlosS" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="156"  Grid.Row="7" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" Margin="143,17,144.333,14.333" />
+            <Label Content="Carlos Sainz" x:Name="carloss" Background="Transparent" Foreground="White" FontSize="20" Margin="143,17,144.333,14.333" Grid.Row="7" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
+            <Button Content="" x:Name="CarlosS" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="156"  Grid.Row="7" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" Margin="143,17,144.333,14.333" />
 
-        <Label Content="Pierre Gasly" x:Name="pierreg" Background="Transparent" Foreground="White" FontSize="20" Margin="145,15.667,149.333,15.667" Grid.Row="8" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
-        <Button Content="" x:Name="PierreG" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="145"  Grid.Row="8" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" Margin="149,15.667,149.333,15.667" />
+            <Label Content="Pierre Gasly" x:Name="pierreg" Background="Transparent" Foreground="White" FontSize="20" Margin="145,15.667,149.333,15.667" Grid.Row="8" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
+            <Button Content="" x:Name="PierreG" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="145"  Grid.Row="8" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" Margin="149,15.667,149.333,15.667" />
 
-        <Label Content="Lewis Hamilton" x:Name="lewish" Background="Transparent" Foreground="White" FontSize="20" Margin="127,18.333,131.333,13.667" Grid.Row="9" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
-        <Button Content="" x:Name="LewisH" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="185"  Grid.Row="9" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" Margin="127,18.333,131.333,13.667" />-->
-        
-        
-        
-        
+            <Label Content="Lewis Hamilton" x:Name="lewish" Background="Transparent" Foreground="White" FontSize="20" Margin="127,18.333,131.333,13.667" Grid.Row="9" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5"></Label>
+            <Button Content="" x:Name="LewisH" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="185"  Grid.Row="9" FontSize="20" Foreground="white" Height="38" Click="Driveroftheday_Click" Margin="127,18.333,131.333,13.667" /> -->
+
+
+
+
     </Grid>
 </Window>

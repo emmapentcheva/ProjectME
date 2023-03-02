@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,51 +23,84 @@ namespace ProjectME
         public Driver_Info()
         {
             InitializeComponent();
-            ConnectionViewModel vm = new ConnectionViewModel();
-            DataContext = vm;
+            //ConnectionViewModel vm = new ConnectionViewModel();
+            //DataContext = vm;
         }
 
-        private void LogInB_Click(object sender, RoutedEventArgs e)
+
+        private void submiting_Click(object sender, RoutedEventArgs e)
         {
-            Data_Gr dr = new Data_Gr();
-            if (cmbx1.SelectedIndex == cmbx1.Items.Count - 1)
+            Max_Verstappen mv = new Max_Verstappen();
+            Charles_Leclerc cl = new Charles_Leclerc();
+            Carlos_Sainz cs = new Carlos_Sainz();
+            Pierre_Gasly pg = new Pierre_Gasly();
+            Lewis_Hamilton lh = new Lewis_Hamilton();
+            Daniel_Ricciardo dr = new Daniel_Ricciardo();
+
+             if (comboBox.SelectedIndex == comboBox.Items.Count - 6)
             {
-                dr.Show();
+                mv.Show();
                 this.Close();
 
             }
-        }
-    }
-
-    public class ConnectionViewModel : INotifyPropertyChanged
-    {
-        public ConnectionViewModel()
-        {
-            IList<PhoneBookEntry> list = new List<PhoneBookEntry>();
-            list.Add(new PhoneBookEntry("Student"));
-            list.Add(new PhoneBookEntry("Teacher"));
-            _phonebookEntries = new CollectionView(list);
-        }
-
-        private readonly CollectionView _phonebookEntries;
-        private string _phonebookEntry;
-
-        public CollectionView PhonebookEntries
-        {
-            get { return _phonebookEntries; }
-        }
-
-        public string PhonebookEntry
-        {
-            get { return _phonebookEntry; }
-            set
+            else if (comboBox.SelectedIndex == comboBox.Items.Count - 5)
             {
-                if (_phonebookEntry == value) return;
-                _phonebookEntry = value;
-                OnPropertyChanged("PhonebookEntry");
+                cl.Show();
+                this.Close();
+            }
+            else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
+            {
+                cs.Show();
+                this.Close();
+
+            }
+            else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
+            {
+                pg.Show();
+                this.Close();
+
+            }
+            else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
+            {
+                lh.Show();
+                this.Close();
+
+            }
+            else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
+            {
+                dr.Show();
+                this.Close();
             }
         }
+    }
+
+    //public class ConnectionViewModel : INotifyPropertyChanged
+    //{
+    //    public ConnectionViewModel()
+    //    {
+    //        IList<PhoneBookEntry> list = new List<PhoneBookEntry>();
+    //        list.Add(new PhoneBookEntry("Student"));
+    //        list.Add(new PhoneBookEntry("Teacher"));
+    //        _phonebookEntries = new CollectionView(list);
+    //    }
+
+    //    private readonly CollectionView _phonebookEntries;
+    //    private string _phonebookEntry;
+
+    //    public CollectionView PhonebookEntries
+    //    {
+    //        get { return _phonebookEntries; }
+    //    }
+
+    //    public string PhonebookEntry
+    //    {
+    //        get { return _phonebookEntry; }
+    //        set
+    //        {
+    //            if (_phonebookEntry == value) return;
+    //            _phonebookEntry = value;
+    //            OnPropertyChanged("PhonebookEntry");
+    //        }
+    //    }
 
     }
-}
-}

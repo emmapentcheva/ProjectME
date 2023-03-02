@@ -24,10 +24,10 @@ namespace ProjectME
             InitializeComponent();
         }
 
-        private void Driveroftheday_Click(object sender, RoutedEventArgs e)
+        private void Driver_Info_Click(object sender, RoutedEventArgs e)
         {
-            Driver_of_the_Day driveroftheday = new Driver_of_the_Day();
-            driveroftheday.Show();
+            Driver_Info driverinfo = new Driver_Info();
+            driverinfo.Show();
             this.Close();
         }
 
@@ -35,6 +35,20 @@ namespace ProjectME
         {
             MainWindow mainwindow = new MainWindow();
             mainwindow.Show();
+            this.Close();
+        }
+
+        private void teamsinfo_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainwindow = new MainWindow();
+            mainwindow.Show();
+            this.Close();
+        }
+
+        private void driverinfo_Click(object sender, RoutedEventArgs e)
+        {
+            Driver_Info driverinfo = new Driver_Info();
+            driverinfo.Show();
             this.Close();
         }
     }
