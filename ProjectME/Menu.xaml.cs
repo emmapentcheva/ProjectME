@@ -51,5 +51,10 @@ namespace ProjectME
             driverinfo.Show();
             this.Close();
         }
+
+        private void teamsinfo_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

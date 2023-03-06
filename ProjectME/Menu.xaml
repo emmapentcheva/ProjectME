@@ -29,7 +29,7 @@
 
         <Label Content="Driver Info" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="149,17,161.333,14.333" Grid.Row="3" Style="{StaticResource Formula1 Display Regular}"/>
         <Button Content="" x:Name="driverinfo" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133" Margin="156,17,0,0" Grid.Row="3" FontSize="20" Foreground="white" Height="38" Click="driverinfo_Click" ></Button>
-        <Button x:Name="teamsinfo" Content="Teams Info" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Center" Width="98" Height="35" Background="Transparent" Foreground="White" FontSize="20" />
+        <Button x:Name="teamsinfo" Content="Teams Info" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Center" Width="98" Height="35" Background="Transparent" Foreground="White" FontSize="20" Click="teamsinfo_Click_1" />
 
         <!--<Label Content="Max Verstappen" x:Name="maxv" Background="Transparent" Foreground="White" FontSize="20" Margin="120,15.667,125.333,15.667" Grid.Row="5" Style="{StaticResource Formula1 Display Regular}" RenderTransformOrigin="0.5,0.5">
             </Label>

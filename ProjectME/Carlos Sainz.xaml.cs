@@ -23,5 +23,19 @@ namespace ProjectME
         {
             InitializeComponent();
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainwindow = new MainWindow();
+            mainwindow.Show();
+            this.Close();
+        }
+
+        private void DriverBack_Click(object sender, RoutedEventArgs e)
+        {
+            Driver_Info driverinfos = new Driver_Info();
+            driverinfos.Show();
+            this.Close();
+        }
     }
 }

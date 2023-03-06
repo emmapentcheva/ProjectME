@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ProjectME
 {
     /// <summary>
-    /// Interaction logic for Lewis_Hamilton.xaml
+    /// Interaction logic for Ferrari.xaml
     /// </summary>
-    public partial class Lewis_Hamilton : Window
+    public partial class Ferrari : Window
     {
-        public Lewis_Hamilton()
+        public Ferrari()
         {
             InitializeComponent();
         }
@@ -33,8 +33,8 @@ namespace ProjectME
 
         private void DriverBack_Click(object sender, RoutedEventArgs e)
         {
-            Driver_Info driverinfos = new Driver_Info();
-            driverinfos.Show();
+            TeamsInfo teaminfo = new TeamsInfo();
+            teaminfo.Show();
             this.Close();
         }
     }

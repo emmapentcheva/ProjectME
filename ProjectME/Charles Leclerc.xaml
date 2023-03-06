@@ -24,8 +24,11 @@
         </Grid.RowDefinitions>
         <Rectangle Fill="#D00000" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="443"/>
         <Image Height="70px" Source="https://www.racecar-engineering.com/wp-content/uploads/2018/03/F1-LOGO.png"/>
-        <Button Content="" x:Name="Home" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="156,10,0,0" Height="49" />
+        <Button Content="" x:Name="Home" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="156,10,0,0" Height="49" Click="Home_Click" />
 
-        <Label Content="Charles Leclerc" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="126,16.667,133.333,14.667" Grid.Row="1" Style="{StaticResource Formula1 Display Bold}"/>
+        <Label Content="Charles Leclerc" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="126,16.667,126.333,14.667" Grid.Row="1" Style="{StaticResource Formula1 Display Bold}"/>
+
+        <Image Source="https://icon-library.com/images/white-back-icon/white-back-icon-7.jpg" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="28" Margin="9,17.667,0,0" Grid.Row="1" RenderTransformOrigin="0.5,0.5"></Image>
+        <Button Content="" x:Name="DriverBack" Background="Transparent"  BorderBrush="Transparent"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Margin="9,15.667,0,0" Grid.Row="1" Height="42" Click="DriverBack_Click"/>
     </Grid>
 </Window>

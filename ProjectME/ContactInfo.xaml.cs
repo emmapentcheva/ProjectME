@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ProjectME
 {
     /// <summary>
-    /// Interaction logic for Lewis_Hamilton.xaml
+    /// Interaction logic for ContactInfo.xaml
     /// </summary>
-    public partial class Lewis_Hamilton : Window
+    public partial class ContactInfo : Window
     {
-        public Lewis_Hamilton()
+        public ContactInfo()
         {
             InitializeComponent();
         }
@@ -28,13 +28,6 @@ namespace ProjectME
         {
             MainWindow mainwindow = new MainWindow();
             mainwindow.Show();
-            this.Close();
-        }
-
-        private void DriverBack_Click(object sender, RoutedEventArgs e)
-        {
-            Driver_Info driverinfos = new Driver_Info();
-            driverinfos.Show();
             this.Close();
         }
     }

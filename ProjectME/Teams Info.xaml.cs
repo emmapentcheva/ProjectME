@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace ProjectME
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for Teams_Info.xaml
     /// </summary>
     public partial class Teams_Info : Window
     {

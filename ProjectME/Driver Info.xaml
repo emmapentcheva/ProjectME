@@ -24,10 +24,10 @@
         </Grid.RowDefinitions>
         <Rectangle Fill="#D00000" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="443"/>
         <Image Height="70px" Source="https://www.racecar-engineering.com/wp-content/uploads/2018/03/F1-LOGO.png"/>
-        <Button Content="" x:Name="Home" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="156,10,0,0" Height="49"/>
+        <Button Content="" x:Name="Home" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="156,10,0,0" Height="49" Click="Home_Click"/>
 
-        <Label Content="Driver Info" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="149,18.667,161.333,12.667" Grid.Row="1" Style="{StaticResource Formula1 Display Bold}"/>
-        
+        <Label Content="Driver Info" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="149,18.667,147.333,12.667" Grid.Row="1" Style="{StaticResource Formula1 Display Bold}"/>
+
         <ComboBox x:Name = "comboBox" HorizontalAlignment = "Left" Selector.IsSelected="True"
          Margin = "74,26.667,0,0" VerticalAlignment = "Top" Width = "291"
           Grid.Row="5">
@@ -39,8 +39,6 @@
             <ComboBoxItem Content = "Lewis Hamilton" />
             <ComboBoxItem Content = "Daniel Ricciardo" />
         </ComboBox>
-        
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.177,0.376" Background="#FFF5B351" />
 
         <Button Content="Submit" x:Name ="submiting" Margin="178,16,197.333,12.333" Grid.Row="7" Background="#D00000"  Foreground="white" Click="submiting_Click">
             <Button.Resources>
@@ -49,5 +47,7 @@
                 </Style>
             </Button.Resources>
         </Button>
+
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.177,0.376" Background="#FFF5B351" />
     </Grid>
 </Window>

@@ -55,11 +55,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AlphaTauri.xaml.cs">
+      <DependentUpon>AlphaTauri.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Caralphatauri.xaml.cs">
+      <DependentUpon>Caralphatauri.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Carferrari.xaml.cs">
+      <DependentUpon>Carferrari.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Carlos Sainz.xaml.cs">
       <DependentUpon>Carlos Sainz.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Carmclaren.xaml.cs">
+      <DependentUpon>Carmclaren.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarMercedes.xaml.cs">
+      <DependentUpon>CarMercedes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarRedbull.xaml.cs">
+      <DependentUpon>CarRedbull.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarsInfo.xaml.cs">
+      <DependentUpon>CarsInfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Charles Leclerc.xaml.cs">
       <DependentUpon>Charles Leclerc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContactInfo.xaml.cs">
+      <DependentUpon>ContactInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Daniel Ricciardo.xaml.cs">
       <DependentUpon>Daniel Ricciardo.xaml</DependentUpon>
@@ -70,6 +94,9 @@
     <Compile Include="Driver of the Day.xaml.cs">
       <DependentUpon>Driver of the Day.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ferrari.xaml.cs">
+      <DependentUpon>Ferrari.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Lewis Hamilton.xaml.cs">
       <DependentUpon>Lewis Hamilton.xaml</DependentUpon>
     </Compile>
@@ -79,11 +106,20 @@
     <Compile Include="Max Verstappen.xaml.cs">
       <DependentUpon>Max Verstappen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Mclaren.xaml.cs">
+      <DependentUpon>Mclaren.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Mercedes.xaml.cs">
+      <DependentUpon>Mercedes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pierre Gasly.xaml.cs">
       <DependentUpon>Pierre Gasly.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Redbull.xaml.cs">
+      <DependentUpon>Redbull.xaml</DependentUpon>
     </Compile>
     <Compile Include="SignUp.xaml.cs">
       <DependentUpon>SignUp.xaml</DependentUpon>
@@ -91,11 +127,46 @@
     <Compile Include="Teams Info.xaml.cs">
       <DependentUpon>Teams Info.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TeamsInfo.xaml.cs">
+      <DependentUpon>TeamsInfo.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AlphaTauri.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Caralphatauri.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Carferrari.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Carlos Sainz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Carmclaren.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarMercedes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarRedbull.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarsInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Charles Leclerc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContactInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -108,6 +179,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Driver of the Day.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ferrari.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,11 +210,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Mclaren.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Menu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Mercedes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pierre Gasly.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Redbull.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,6 +235,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Teams Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeamsInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -72,6 +72,13 @@ namespace ProjectME
                 this.Close();
             }
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Close();
+        }
     }
 
     //public class ConnectionViewModel : INotifyPropertyChanged
