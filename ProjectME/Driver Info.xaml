@@ -49,5 +49,8 @@
         </Button>
 
         <Button Content="Button" HorizontalAlignment="Center" Margin="0,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.177,0.376" Background="#FFF5B351" />
+
+        <Image Source="https://icon-library.com/images/white-back-icon/white-back-icon-7.jpg" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="28" Margin="9,17.667,0,0" Grid.Row="1" RenderTransformOrigin="0.5,0.5"></Image>
+        <Button Content="" x:Name="DriverBack" Background="Transparent"  BorderBrush="Transparent"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Margin="9,15.667,0,0" Grid.Row="1" Height="42" Click="DriverBack_Click"/>
     </Grid>
 </Window>

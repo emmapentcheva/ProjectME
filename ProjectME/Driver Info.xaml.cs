@@ -75,6 +75,13 @@ namespace ProjectME
 
         private void Home_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow mainwindow = new MainWindow();
+            mainwindow.Show();
+            this.Close();
+        }
+
+        private void DriverBack_Click(object sender, RoutedEventArgs e)
+        {
             Menu menu = new Menu();
             menu.Show();
             this.Close();

@@ -56,5 +56,10 @@ namespace ProjectME
         {
 
         }
+
+        private void contactinfoss_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
