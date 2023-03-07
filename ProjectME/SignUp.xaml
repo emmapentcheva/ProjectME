@@ -42,7 +42,7 @@
         <PasswordBox x:Name="psspassword" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="130" Margin="216,26,0,0" Grid.Row="7"/>
         <PasswordBox x:Name="pssreppassword" HorizontalAlignment="Left" VerticalAlignment="Top" Height="26" Width="130" Margin="216,25.667,0,0" Grid.Row="8"/>
 
-        <Button Content="" x:Name ="SignUpGo" Margin="184,14.333,191.333,16" Grid.Row="10" Background="#D00000" Foreground="White">
+        <Button Content="" x:Name ="SignUpGo" Margin="184,14.333,191.333,16" Grid.Row="10" Background="#D00000" Foreground="White" >
             <Button.Resources >
                 <Style TargetType="Border" >
                     <Setter Property="CornerRadius" Value="20"  ></Setter>

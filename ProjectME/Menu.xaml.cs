@@ -47,9 +47,7 @@ namespace ProjectME
 
         private void driverinfo_Click(object sender, RoutedEventArgs e)
         {
-            Driver_Info driverinfo = new Driver_Info();
-            driverinfo.Show();
-            this.Close();
+            
         }
 
         private void teamsinfo_Click_1(object sender, RoutedEventArgs e)
@@ -60,6 +58,13 @@ namespace ProjectME
         private void contactinfoss_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void driverinfoss_Click(object sender, RoutedEventArgs e)
+        {
+            Driver_Info driverinfo = new Driver_Info();
+            driverinfo.Show();
+            this.Close();
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,41 +37,122 @@ namespace ProjectME
             Pierre_Gasly pg = new Pierre_Gasly();
             Lewis_Hamilton lh = new Lewis_Hamilton();
             Daniel_Ricciardo dr = new Daniel_Ricciardo();
+            SqlConnection sqlCon = new SqlConnection(@"Data Source=LABSCIFIPC03\LOCALHOST; Initial Catalog=projectme; Integrated Security=True");
 
-             if (comboBox.SelectedIndex == comboBox.Items.Count - 6)
+            try
             {
-                mv.Show();
-                this.Close();
+                sqlCon.Open();
+
+                string query = " select * from DriverInfo where Driver_last+Name = '" + (comboBox.Items.Count - 6) + "'";
+
+                SqlCommand cmd = new SqlCommand(query, sqlCon);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+
+                if (comboBox.SelectedIndex == comboBox.Items.Count - 6)
+                {
+                    mv.Show();
+                    this.Close();
+
+                }
+                else if (comboBox.SelectedIndex == comboBox.Items.Count - 5)
+                {
+                    cl.Show();
+                    this.Close();
+                }
+                else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
+                {
+                    cs.Show();
+                    this.Close();
+
+                }
+                else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
+                {
+                    pg.Show();
+                    this.Close();
+
+                }
+                else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
+                {
+                    lh.Show();
+                    this.Close();
+
+                }
+                else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
+                {
+                    dr.Show();
+                    this.Close();
+                }
+
+                while (reader.Read())
+                {
+                    if (comboBox.SelectedIndex == comboBox.Items.Count - 6)
+                    {
+                        
+
+                        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+                        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+                        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+                        mv.maxcountryblock.Text = reader["Country"].ToString();
+                        mv.maxheightblock.Text = reader["Height"].ToString();
+                        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+                        mv.maxteamblock.Text = reader["TeamName"].ToString();
+                        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+                        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+                        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+
+                    }
+                    else if (comboBox.SelectedIndex == comboBox.Items.Count - 5)
+                    {
+                        cl.Show();
+                        this.Close();
+                    }
+                    else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
+                    {
+                        cs.Show();
+                        this.Close();
+
+                    }
+                    else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
+                    {
+                        pg.Show();
+                        this.Close();
+
+                    }
+                    else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
+                    {
+                        lh.Show();
+                        this.Close();
+
+                    }
+                    else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
+                    {
+                        dr.Show();
+                        this.Close();
+                    }
+
+                }
 
             }
-            else if (comboBox.SelectedIndex == comboBox.Items.Count - 5)
+
+            catch (Exception ex)
+
             {
-                cl.Show();
-                this.Close();
-            }
-            else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
-            {
-                cs.Show();
-                this.Close();
+
+                MessageBox.Show(ex.Message);
 
             }
-            else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
+
+            finally
+
             {
-                pg.Show();
-                this.Close();
+
+                sqlCon.Close();
 
             }
-            else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
-            {
-                lh.Show();
-                this.Close();
-
-            }
-            else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
-            {
-                dr.Show();
-                this.Close();
-            }
+            
+            
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
