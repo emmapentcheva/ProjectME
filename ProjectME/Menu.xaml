@@ -32,13 +32,6 @@
         <Label Content="Driver Info" x:Name="driverinfos" Background="Transparent" Foreground="White" FontSize="20" Margin="156,14.667,154.333,16.667" Grid.Row="5" Style="{StaticResource Formula1 Display Regular}"/>
         <Button Content="" x:Name="driverinfoss" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133" Margin="156,14.667,0,0" Grid.Row="5" FontSize="20" Foreground="white" Height="38" Click="driverinfoss_Click"/>
 
-        <Label Content="Teams Info" x:Name="teamsinfos" Background="Transparent" Foreground="White" FontSize="20" Margin="156,14.333,154.333,17" Grid.Row="6" Style="{StaticResource Formula1 Display Regular}"/>
-        <Button x:Name="teamsinfoss" Content="" HorizontalAlignment="Center"  BorderBrush="Transparent" Grid.Row="6" VerticalAlignment="Center" Width="133" Height="38" Background="Transparent" Foreground="White" FontSize="20" Margin="156,14.333,154.333,17" />
-
-        <Label Content="Car Info" x:Name="carsinfos" Background="Transparent" Foreground="White" FontSize="20" Margin="171,17,172.333,14.333" Grid.Row="7" Style="{StaticResource Formula1 Display Regular}"/>
-        <Button x:Name="carinfoss" Content="" HorizontalAlignment="Center"  BorderBrush="Transparent" Grid.Row="7" VerticalAlignment="Center" Width="100" Height="38" Background="Transparent" Foreground="White" FontSize="20" Margin="171,17,172.333,14.333" />
-
-        <Label Content="Contact Info" x:Name="contactinfos" Background="Transparent" Foreground="White" FontSize="20" Margin="149,15.667,142.333,15.667" Grid.Row="8" Style="{StaticResource Formula1 Display Regular}"/>
-        <Button x:Name="contactinfoss" Content="" HorizontalAlignment="Center"  BorderBrush="Transparent" Grid.Row="8" VerticalAlignment="Center" Width="146" Height="38" Background="Transparent" Foreground="White" FontSize="20" Margin="149,15.667,148.333,15.667" Click="contactinfoss_Click" />
+        
     </Grid>
 </Window>

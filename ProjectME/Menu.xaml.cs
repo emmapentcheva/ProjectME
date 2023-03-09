@@ -38,27 +38,9 @@ namespace ProjectME
             this.Close();
         }
 
-        private void teamsinfo_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mainwindow = new MainWindow();
-            mainwindow.Show();
-            this.Close();
-        }
+        
 
-        private void driverinfo_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void teamsinfo_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void contactinfoss_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
 
         private void driverinfoss_Click(object sender, RoutedEventArgs e)
         {

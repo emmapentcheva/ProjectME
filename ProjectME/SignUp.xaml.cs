@@ -33,6 +33,51 @@ namespace ProjectME
             this.Close();
         }
 
+        private void SignUpGo_Click(object sender, RoutedEventArgs e)
+        {
+            SqlConnection sqlCon = new SqlConnection(@"Data Source=LABSCIFIPC03\LOCALHOST; Initial Catalog=SignUpDB; Integrated Security=True");
+
+            try
+            {
+
+
+                //opening the connection to the db 
+
+                sqlCon.Open();
+
+                //Build our actual query 
+
+                string query = "INSERT INTO Signup(Username, First Name, Last Name, Email, Password, Password Repeat) values('" + this.txtusername.Text + "', '" + this.txtfirstname.Text + "', '" + this.txtlastname.Text + "', '" + this.psspassword.Password + "', '" + this.pssreppassword.Password + "')";
+
+                //Establish a sql command
+
+                SqlCommand cmd = new SqlCommand(query, sqlCon);
+
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Successfully saved");
+
+                
+
+            }
+
+            catch (Exception ex)
+
+            {
+
+                MessageBox.Show(ex.Message);
+
+            }
+
+            finally
+
+            {
+
+                sqlCon.Close();
+
+            }
+        }
+
         //private void SignUpGo_Click(object sender, RoutedEventArgs e)
         //{
         //    SqlConnection sqlCon = new SqlConnection(@"Data Source=LABSCIFIPC03\LOCALHOST; Initial Catalog=projectme; Integrated Security=True");

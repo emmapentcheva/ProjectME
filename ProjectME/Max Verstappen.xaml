@@ -26,7 +26,7 @@
         <Image Height="70px" Source="https://www.racecar-engineering.com/wp-content/uploads/2018/03/F1-LOGO.png"/>
         <Button Content="" x:Name="Home" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="156,10,0,0" Height="49" Click="Home_Click"/>
 
-        <Label Content="Max Verstappen" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="114,15.667,119.333,15.667" Grid.Row="1" Style="{StaticResource Formula1 Display Bold}"/>
+        <Label Content="Driver" x:Name="username" Background="Transparent" Foreground="White" FontSize="20" Margin="114,15.667,119.333,15.667" Grid.Row="1" Style="{StaticResource Formula1 Display Bold}"/>
         <Image Source="https://icon-library.com/images/white-back-icon/white-back-icon-7.jpg" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="28" Margin="9,17.667,0,0" Grid.Row="1" RenderTransformOrigin="0.5,0.5"></Image>
         <Button Content="" x:Name="DriverBack" Background="Transparent"  BorderBrush="Transparent"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="28" Margin="9,15.667,0,0" Grid.Row="1" Height="42" Click="DriverBack_Click"/>
         <TextBlock Foreground="white" Background="Transparent" x:Name="maxfirstNameblock" FontSize="20" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" RenderTransformOrigin="1.32,6.836" Margin="233,25.333,0,0" Grid.Row="2" Height="34" Width="120" />
