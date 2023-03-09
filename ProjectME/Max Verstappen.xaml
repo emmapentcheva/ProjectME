@@ -40,5 +40,25 @@
         <TextBlock Foreground="white" Background="Transparent" x:Name="maxworldcpblock" FontSize="20" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" RenderTransformOrigin="1.32,6.836" Margin="220,25.333,0,0" Grid.Row="10" Height="34" Width="120" />
         <TextBlock Foreground="white" Background="Transparent" x:Name="maxsalaryblock" FontSize="20" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" RenderTransformOrigin="1.32,6.836" Margin="220,25,0,0" Grid.Row="11" Height="34" Width="120" />
 
+        <Label Content="First Name" x:Name="driver_first" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="2" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="Last Name" x:Name="driver_last" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="3" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="Birthday" x:Name="birthdaydate" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="4" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="Nationality" x:Name="nationality" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="5" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="Height" x:Name="heightdriver" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="6" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="Years Experience" x:Name="yexperience" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="7" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="Team Name" x:Name="teamname_" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="8" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="Driver Number" x:Name="driver_number" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="9" Style="{StaticResource Formula1 Display Regular}"/>
+
+        <Label Content="# World Championships" x:Name="championshipw" Background="Transparent" Foreground="White" FontSize="15" Grid.Row="10" Style="{StaticResource Formula1 Display Regular}" Margin="0,19.333,223.333,10"/>
+
+        <Label Content="Salary" x:Name="salary" Background="Transparent" Foreground="White" FontSize="20" Grid.Row="11" Style="{StaticResource Formula1 Display Regular}"/>
+
     </Grid>
 </Window>

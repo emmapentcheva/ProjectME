@@ -119,7 +119,7 @@ namespace ProjectME
         //        //{
         //        //    if (comboBox.SelectedIndex == comboBox.Items.Count - 6)
         //        //    {
-                        
+
 
         //        //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
         //        //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
@@ -181,8 +181,8 @@ namespace ProjectME
         //        sqlCon.Close();
 
         //    }
-            
-            
+
+
         //}
 
         private void Home_Click(object sender, RoutedEventArgs e)
@@ -202,7 +202,7 @@ namespace ProjectME
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             //Max_Verstappen mv = new Max_Verstappen();
-            
+
             //SqlConnection sqlCon = new SqlConnection(@"Data Source=LABSCIFIPC03\LOCALHOST; Initial Catalog=projectme; Integrated Security=True");
 
             //try
@@ -232,187 +232,187 @@ namespace ProjectME
             //        mv.Show();
 
             //    }
-                    
-
-                
-
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 5)
-                //{
-                //    while (reader.Read())
-                //    {
 
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
-                        
-                //    }
-                //    mv.Show();
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
-                //{
-                //    while (reader.Read())
-                //    {
 
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
-                        
-                //    }
-                //    mv.Show();
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
-                //{
-                //    while (reader.Read())
-                //    {
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 5)
+            //{
+            //    while (reader.Read())
+            //    {
 
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
-                        
-                //    }
-                //    mv.Show();
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
-                //{
-                //    while (reader.Read())
-                //    {
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+
+            //    }
+            //    mv.Show();
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
+            //{
+            //    while (reader.Read())
+            //    {
 
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
-                //        mv.Show();
-                //    }
-                    
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
-                //{
-                //    while (reader.Read())
-                //    {
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+
+            //    }
+            //    mv.Show();
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
+            //{
+            //    while (reader.Read())
+            //    {
 
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
-                        
-                //    }
-                //    mv.Show();
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
-                //{
-                //    while (reader.Read())
-                //    {
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
-
-                //    }
-                //    mv.Show();
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
-                //{
-                //    reader.Read();
+            //    }
+            //    mv.Show();
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
+            //{
+            //    while (reader.Read())
+            //    {
 
 
-                //    mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //    mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //    mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //    mv.maxcountryblock.Text = reader["Country"].ToString();
-                //    mv.maxheightblock.Text = reader["Height"].ToString();
-                //    mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //    mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //    mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //    mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //    mv.maxsalaryblock.Text = reader["Salary"].ToString();
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+            //        mv.Show();
+            //    }
+
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
+            //{
+            //    while (reader.Read())
+            //    {
 
 
-                //    mv.Show();
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
-                //{
-                //    while (reader.Read())
-                //    {
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+            //    }
+            //    mv.Show();
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 4)
+            //{
+            //    while (reader.Read())
+            //    {
 
-                //    }
-                //    mv.Show();
-                //}
-                //else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
-                //{
-                //    while (reader.Read())
-                //    {
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
 
-                //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
-                //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
-                //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
-                //        mv.maxcountryblock.Text = reader["Country"].ToString();
-                //        mv.maxheightblock.Text = reader["Height"].ToString();
-                //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
-                //        mv.maxteamblock.Text = reader["TeamName"].ToString();
-                //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
-                //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
-                //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+            //    }
+            //    mv.Show();
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 3)
+            //{
+            //    reader.Read();
 
-                //    }
-                //    mv.Show();
-                //}
-            }
+
+            //    mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //    mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //    mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //    mv.maxcountryblock.Text = reader["Country"].ToString();
+            //    mv.maxheightblock.Text = reader["Height"].ToString();
+            //    mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //    mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //    mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //    mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //    mv.maxsalaryblock.Text = reader["Salary"].ToString();
+
+
+            //    mv.Show();
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 2)
+            //{
+            //    while (reader.Read())
+            //    {
+
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+
+            //    }
+            //    mv.Show();
+            //}
+            //else if (comboBox.SelectedIndex == comboBox.Items.Count - 1)
+            //{
+            //    while (reader.Read())
+            //    {
+
+            //        mv.maxfirstNameblock.Text = reader["Driver_firstName"].ToString();
+            //        mv.maxlastNameblock.Text = reader["Driver_lastname"].ToString();
+            //        mv.maxbirthdayblock.Text = reader["DOB"].ToString();
+            //        mv.maxcountryblock.Text = reader["Country"].ToString();
+            //        mv.maxheightblock.Text = reader["Height"].ToString();
+            //        mv.maxyearsexperienceblock.Text = reader["YExperience"].ToString();
+            //        mv.maxteamblock.Text = reader["TeamName"].ToString();
+            //        mv.maxdrivernumberblock.Text = reader["DriverNumber"].ToString();
+            //        mv.maxworldcpblock.Text = reader["WorldChampionship_N"].ToString();
+            //        mv.maxsalaryblock.Text = reader["Salary"].ToString();
+
+            //    }
+            //    mv.Show();
+            //}
+        }
 
         private void submiting_Click(object sender, RoutedEventArgs e)
         {
@@ -466,6 +466,7 @@ namespace ProjectME
         }
 
     }
+}
 
     
     

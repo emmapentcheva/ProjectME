@@ -35,7 +35,7 @@ namespace ProjectME
 
         private void SignUpGo_Click(object sender, RoutedEventArgs e)
         {
-            SqlConnection sqlCon = new SqlConnection(@"Data Source=LABSCIFIPC03\LOCALHOST; Initial Catalog=SignUpDB; Integrated Security=True");
+            SqlConnection sqlCon = new SqlConnection(@"Data Source=LABSCIFIPC03\LOCALHOST; Initial Catalog=projectme; Integrated Security=True");
 
             try
             {
@@ -47,7 +47,7 @@ namespace ProjectME
 
                 //Build our actual query 
 
-                string query = "INSERT INTO Signup(Username, First Name, Last Name, Email, Password, Password Repeat) values('" + this.txtusername.Text + "', '" + this.txtfirstname.Text + "', '" + this.txtlastname.Text + "', '" + this.psspassword.Password + "', '" + this.pssreppassword.Password + "')";
+                string query = "INSERT INTO Signup1(Username, [First Name], [Last Name], Email, Password, [Repeat Password]) values('" + this.txtusername.Text + "', '" + this.txtfirstname.Text + "', '" + this.txtlastname.Text + "', '" + this.txtemail.Text + "','" + this.psspassword.Password + "', '" + this.pssreppassword.Password + "')";
 
                 //Establish a sql command
 
@@ -57,7 +57,9 @@ namespace ProjectME
 
                 MessageBox.Show("Successfully saved");
 
-                
+                LogIn gf = new LogIn();
+                gf.Show();
+                this.Close();
 
             }
 
